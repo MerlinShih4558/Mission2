@@ -200,7 +200,7 @@ z-idx1 {
 
 @media (max-width: 428px) {
   .overall {
-    max-width: 428px;
+    max-width: 100%;
   }
   .img1 {
     display: none;
@@ -209,7 +209,7 @@ z-idx1 {
     display: block;
   }
   .intro {
-    max-width: 428px;
+    max-width: 375px;
     height: 255px;
     margin-left: 53.5px;
     margin-right: 53.5px;
