@@ -1,0 +1,741 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/*	display: flex;this is the point*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/*	display: flex;this is the point*/
+.d-flex {
+  display: flex;
+}
+
+.f-drct-c {
+  flex-direction: column;
+}
+
+.j-c-f-s {
+  justify-content: flex-start;
+}
+
+.j-c-c {
+  justify-content: center;
+}
+
+.j-c-s-b {
+  justify-content: space-between;
+}
+
+.a-s-c {
+  align-self: center;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.card img {
+  width: 636px;
+  height: 440px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+.content {
+  width: 1296px;
+  margin: 0 auto;
+  padding-left: 16.25%;
+  padding-right: 16.25%;
+}
+.content .lstctnt {
+  width: 10%;
+}
+
+.card {
+  width: 636px;
+  margin-bottom: 80px;
+}
+
+.dscptn1 {
+  margin-left: 16px;
+}
+
+.slct-nbr {
+  width: 100%;
+}
+
+.word {
+  font-family: "Noto Sans TC";
+  font-size: 28px;
+  color: #3B3B3B;
+  font-weight: 700;
+}
+
+.selectword {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.content li:hover {
+  background: #3B3B3B;
+  color: #FFFFFF;
+  border-radius: 4px;
+}
+
+.word-16 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.w-grey {
+  color: #919191;
+}
+
+.button {
+  border-radius: 16px;
+  background-color: #F1F1F1;
+  height: 32px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: 16px;
+  margin-top: 24px;
+}
+
+h1 {
+  margin-bottom: 8px;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+a, a:hover, a:visited, a:link, a:active {
+  color: #000;
+  text-decoration: none;
+  outline: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.f-drct-c {
+  flex-direction: column;
+}
+
+.j-c-f-s {
+  justify-content: flex-start;
+}
+
+.j-c-c {
+  justify-content: center;
+}
+
+.j-c-s-b {
+  justify-content: space-between;
+}
+
+.j-c-s-a {
+  justify-content: space-around;
+}
+
+.a-s-c {
+  align-self: center;
+}
+
+.a-s-s {
+  align-self: flex-start;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.pstn-rltv {
+  position: relative;
+}
+
+.pstn-abs {
+  position: absolute;
+}
+
+.pstn-t {
+  top: 30px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+}
+
+.pstn-l-153 {
+  left: 153px;
+}
+
+.pstn-l-324 {
+  left: 324px;
+}
+
+.pstn-t-20 {
+  top: 20px;
+}
+
+.z-idx-1 {
+  z-index: -1;
+}
+
+.z-idx0 {
+  z-index: 0;
+}
+
+.z-idx1 {
+  z-index: 1;
+}
+
+.img1 {
+  top: 0px;
+  left: 0px;
+  max-width: 72px;
+}
+
+.img2 {
+  bottom: 0px;
+  right: 0px;
+  max-width: 72px;
+}
+
+.img3 {
+  max-width: 64px;
+}
+
+.icon {
+  margin-right: 8px;
+  margin-left: 8px;
+  padding: 8px;
+  width: 56px;
+}
+
+.udrline1 {
+  max-width: 148px;
+  top: 23px;
+  left: 396px;
+}
+
+.udrline2 {
+  max-width: 148px;
+  top: 68px;
+  left: 352px;
+}
+
+.bottomline {
+  border-bottom: solid 2px #C1C1C1;
+  width: 24px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+}
+
+.footer {
+  max-width: 1920px;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+.overall {
+  max-width: 1920px;
+  margin: 0 auto;
+  height: auto;
+}
+
+.banner {
+  background-color: #FAFAFA;
+  margin-bottom: 118px;
+}
+
+.banner1 {
+  height: 192px;
+}
+
+.ban1word {
+  margin-left: 71px;
+  margin-right: 71px;
+}
+
+.banner2-1 {
+  max-width: 298px;
+}
+
+.intro {
+  width: 430px;
+  margin-left: 312px;
+  margin-top: 248px;
+  margin-bottom: 248px;
+}
+
+.mt14 {
+  margin-top: 14px;
+}
+
+.mb80 {
+  margin-bottom: 80px;
+}
+
+.pt80 {
+  padding: 80px;
+}
+
+.header li {
+  font-family: "Noto Sans TC";
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+.header li:hover {
+  font-weight: 600;
+  font-size: 16px;
+}
+.header a:hover::before, .header a:hover::after, .header li:hover::before, .header li:hover::after {
+  border-color: black;
+}
+.header .liborder1::after {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-left: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  z-index: -1;
+  left: -4px;
+  bottom: -5px;
+}
+.header .liborder2::before {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-left: 1px solid transparent;
+  border-top: 1px solid transparent;
+  z-index: -1;
+  left: -4px;
+  top: -4px;
+}
+.header .liborder3::before {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-right: 1px solid transparent;
+  border-top: 1px solid transparent;
+  z-index: -1;
+  right: -4px;
+  top: -4px;
+}
+.header .liborder4::after {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-right: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  z-index: -1;
+  right: -4px;
+  bottom: -5px;
+}
+
+.card .word {
+  font-family: "Noto Sans";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.footer .word {
+  font-family: "Noto Sans TC";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #3B3B3B;
+}
+.footer .word-adr {
+  line-height: 24px;
+  color: #919191;
+}
+.footer .word-white {
+  font-family: "Noto Sans";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.footer .word-blk {
+  font-family: "Noto Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #3B3B3B;
+}
+.footer .bgc-b {
+  background-color: #000000;
+  border-radius: 8px;
+}
+.footer .bgc-w {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+}
+.footer .scl-mdia {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 306px;
+  height: 264px;
+}
+.footer .bdr-mdia {
+  border: solid #C1C1C1 1px;
+}
+.footer .icon2 {
+  width: 56px;
+  margin-left: 24px;
+  margin-right: 8px;
+}
+.footer .ft-logo {
+  width: 120px;
+}
+
+.banner .word {
+  font-family: "Noto Sans TC";
+  font-size: 28px;
+  color: #3B3B3B;
+  text-align: center;
+}
+.banner .word-400-24-288 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.8px;
+  color: #1E1E1E;
+}
+.banner .word-400-16-24 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5B5B5B;
+}
+.banner .word-400-16-24-3B {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3B3B3B;
+}
+
+.w-grey {
+  color: #919191;
+}
+
+.button {
+  border-radius: 16px;
+  background-color: #F1F1F1;
+  height: 32px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: 16px;
+  margin-top: 24px;
+}
+
+.mb24 {
+  margin-bottom: 24px;
+}
+
+.mb16 {
+  margin-bottom: 16px;
+}
+
+.bdr-check {
+  border: solid yellow;
+}
+
+/*
+    border: solid yellow;
+}
+*/
+/*span{
+    border: solid blue;
+}*/
+.header .logo {
+  width: 76px;
+}
+.header .hamlist {
+  position: absolute;
+  right: 17px;
+  width: 40px;
+}
+.header .hambar {
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  border-radius: 5px;
+  margin: 6px;
+}
+
+@media (max-width: 768px) {
+  .content {
+    width: 375px;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .card img {
+    width: 351px;
+    height: 224px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+  }
+  .content .word {
+    font-family: "Noto Sans TC";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #3B3B3B;
+  }
+  .content .word-16 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .content .w-grey {
+    color: #919191;
+  }
+  .content .button {
+    margin-top: 16px;
+    margin-right: 8px;
+    margin-left: 0px;
+  }
+  .content .ml-16 {
+    margin-left: 16px;
+  }
+  .content .mr-16 {
+    margin-right: 16px;
+  }
+  .content .lstctnt {
+    width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .footer .ft-logo {
+    width: 113px;
+  }
+  .footer .contact {
+    margin-top: 40px;
+  }
+  .footer .word {
+    font-family: "Noto Sans TC";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3B3B3B;
+  }
+  .footer .word-adr {
+    line-height: 24px;
+    color: #919191;
+  }
+  .footer .word-white {
+    font-family: "Noto Sans";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+  }
+  .footer .word-blk {
+    font-family: "Noto Sans";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #3B3B3B;
+  }
+  .footer .scl-mdia {
+    padding-top: 40px;
+    /*
+    padding-bottom:  80px;
+    width: 306px;
+    height: 264px;*/
+  }
+}
+@media (max-width: 768px) {
+  .header .logo {
+    width: 62.49px;
+  }
+}
+.dsp-n {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .word-400-24-288 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1E1E1E;
+  }
+  .rspsv-dsgn-apr {
+    display: block;
+  }
+  .rspsv-dsgn-dsapr {
+    display: none;
+  }
+  .rspsv-f-drct-c {
+    flex-direction: column;
+  }
+  .rspsv-j-c-c {
+    justify-content: center;
+  }
+  .rspsv-d-flex {
+    display: flex;
+  }
+  .rspsv-a-s-c {
+    align-self: center;
+  }
+  .pstn-abs {
+    position: none;
+  }
+  .pstn-abs {
+    position: none;
+  }
+  .udrline1 {
+    max-width: 108px;
+    top: 51px;
+    left: 118.5px;
+  }
+  .udrline2 {
+    max-width: 108px;
+    top: 119px;
+    left: 118px;
+  }
+  .banner1 {
+    height: 192px;
+    width: 300px;
+    margin-bottom: 40px;
+  }
+  .ban1word {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .mb16 {
+    margin-bottom: 8px;
+  }
+  .banner2-1 {
+    margin-bottom: 20px;
+  }
+}
+/*
+
+1.表頭：Sabrina
+
+<img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/logo.svg" alt="">
+
+2.banner：Merlin
+<img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/hero-lg.png?raw=true" alt="">
+<img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/mark.png?raw=true" alt="">
+黃色標示：https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/mark.png?raw=true
+
+//上引號
+https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/quote-left.png?raw=true
+
+https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/quote-right.png?raw=true
+
+響應式照片：https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/hero-sm.png?raw=true
+
+youtube icon
+<img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/youtube.svg" alt="">
+ig/fb icon
+<img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/facebook.svg" alt="">
+<img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/instagram.svg" alt="">
+
+3.作品集頁面：Mika
+<img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work1-bg.png?raw=true" alt="">
+<img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work1.png?raw=true" alt="">
+
+//理財app
+<img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work2-lg.png?raw=true" alt="">
+
+//醫美診所官網
+<img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work3-bg.png?raw=true" alt="">
+<img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work3.png?raw=true" alt="">
+
+//服務項目
+<img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-services-bg.png?raw=true" alt="">
+
+平面設計icon
+<img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/price-item-visual.svg" alt="">
+
+UIdesign icon
+<img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/price-item-ui.svg" alt="">
+
+前端開發icon
+<img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/price-item-front-end.svg" alt="">
+
+切版icon
+<img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/service-item-html%26css.svg" alt="">
+
+對角線切割icon
+<img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/process-bg.png?raw=true" alt="">
+
+
+
+//精選文章
+<img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image1.png?raw=true" alt="">
+<img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image2.png?raw=true" alt="">
+<img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image3.png?raw=true" alt="">
+
+//表尾
+<img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/footer-bg-lg.png?raw=true" alt="">
+<img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/facebook.svg" alt="">
+<img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/instagram.svg" alt="">
+<img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/logo.svg" alt="">
+*//*# sourceMappingURL=mission3.css.map */
